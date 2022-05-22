@@ -1,3 +1,42 @@
+body {
+    font-family: roboto, sans-serif;
+    background-color: #FFFFFF;
+    color: #212121;
+}
+
+.logo {
+    
+}
+/*Палитра страницы*/
+/*цвет основного текста #757575 /
+
+/*цвет вторичного текста #2121218 /
+/*акцент #2196F3*/
+/*белый #FFFFFF*/ 
+/*вторичный цвет фона #F5F4FA*/
+/* акцен ный цвет фона #2F303A */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;

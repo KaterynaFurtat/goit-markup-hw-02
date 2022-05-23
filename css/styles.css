@@ -1,42 +1,77 @@
-body {
-    font-family: roboto, sans-serif;
-    background-color: #FFFFFF;
-    color: #212121;
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --axent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --primary-background-color: #FFFFFF;
+    --secondary-background-color: #F5F4FA;
+    --axent-background-color: #2F303A;
 }
 
+body {
+    font-family: roboto, sans-serif;
+    background-color: var(--primary-background-color);
+    color: var(--primary-text-color);
+    font-weight: 400;
+}
+
+.list {
+    list-style: none;
+}  
 .logo {
-    
+    font-family: raleway, sans-serif; 
+    color: ;
 }
 /*Палитра страницы*/
 /*цвет основного текста #757575 /
 
-/*цвет вторичного текста #2121218 /
-/*акцент #2196F3*/
-/*белый #FFFFFF*/ 
-/*вторичный цвет фона #F5F4FA*/
-/* акцен ный цвет фона #2F303A */
+/*цвет вторичного текста #212121  */
+/*акцент #2196F3 */
+/*белый #FFFFFF */ 
+/*вторичный цвет фона #F5F4FA */
+/* акцентный цвет фона #2F303A */
 
+/* site-nav */
+ .site-nav .link {
+    font-family:inherit;
+    color: var(--title-text-color);
+    font-weight: 500;
+}
 
+.link:hover,
+.link:focus {
+    color: var(--axent-color);
+} 
 
+/* site-contacts */
+.site-contacts .link {
+    font-family: inherit;
+    color: var(--primary-text-color);
+    font-weight: 500;
+}
 
+.link:hover,
+.link:focus {
+    color: var(--axent-color);
+}
 
+/* hero */
+.hero {
+    background-color: var(--axent-background-color);
+    color: var(--white-color);
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+}
+.hero-button {
+    background-color: var(--axent-color);
+    color: var(--white-color);
+    font-weight: 700;
+    cursor: pointer;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Преимущества */
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -48,4 +83,17 @@ body {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+}
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+}
+.section-inventory {
+    color: var(--title-text-color);
+    font-weight: 700;
+}
+.section-emp {
+    color: var(--title-text-color);
+    font-weight: 500;
 }
